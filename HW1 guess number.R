@@ -1,0 +1,39 @@
+# 猜數字遊戲
+# 基本功能
+# 1. 請寫一個由"電腦隨機產生"不同數字的四位數(1A2B遊戲)
+# 2. 玩家可"重覆"猜電腦所產生的數字，並提示猜測的結果(EX:1A2B)
+# 3. 一旦猜對，系統可自動計算玩家猜測的次數
+
+# 額外功能：每次玩家輸入完四個數字後，檢查玩家的輸入是否正確(錯誤檢查)
+
+random_generated = c(sample(0:9,4))
+attempt = 0
+#i.e. player_guess = 1234
+#如何將數值存成向量？
+player_guess = c(4,1,7,0)
+code_name = c(NULL,NULL,NULL,NULL)
+#這作為連接之用
+YES = 0
+
+for (i in 1:4) {
+  attempt = attempt +1
+  if (player_guess[i] == random_generated[i]) {
+    code_name[i] = A
+    YES = YES +1
+  } else if (player_guess[i] %in% random_generated & player_guess[i]!=random_generated[i]) {
+    code_name[i] = B
+  } else {
+    code_name[i] = ""
+  }
+  
+}
+
+if (YES == 4) {
+  #如何檢查一個向量裡面的元素是否完全相等？
+  print(paste("讚喔！你第", attempt/4, "次就成功了！"))
+} else {
+  print(sort(paste(code_name, collapse = "")))
+  paste("已嘗試", attempt/4, "次。再試試看吧！")
+  #如何把印出來的東西連接在一起，如："A" "A" 印成 "2A"？
+}
+
