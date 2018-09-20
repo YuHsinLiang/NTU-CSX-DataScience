@@ -2,6 +2,7 @@
 ---
 
 **Assignment**
+
 Course 1
 1. 建立個人Github帳號: [梁育新的GitHub](https://https://github.com/YuHsinLiang)
 2. 建立本課程專用Repository: [YuHsinLiang/NTU-CSX-DataScience](https://github.com/YuHsinLiang/NTU-CSX-DataScience)
