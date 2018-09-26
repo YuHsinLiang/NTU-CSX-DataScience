@@ -3,11 +3,9 @@
 
 **Assignment**
 Course 2
-1. 建立 week_2 (course_2/, hw_2/, README.md)，且完成 course_2/
-2. hw_2/hw_2_crawler/XXX.Rmd 完成
-3. hw_2/hw_2_crawler/XXX.r, hw_2/hw_2_crawler/XXX.html 完成，並且在 GitHub 建立作業連結放在 README.md中
-4. 詳細的 README.md 解說。 ex.當週課堂、家裡的進度
+1. 嘗試用rvest 爬取[https://www.michaeljgrogan.com/rvest-web-scraping-using-r/](https://https://www.michaeljgrogan.com/rvest-web-scraping-using-r/)
 
 HW 2
 1. 安裝GitHub desktop 並學會如何create branch, pull requests跟merge branches
 2. 學會使用HackMD；了解並使用Markdown來寫readme
+3. R Crawler 完成 ([.R](https://https://github.com/YuHsinLiang/NTU-CSX-DataScience/blob/master/week_2/R%20crawler.R), [.rmd](https://https://github.com/YuHsinLiang/NTU-CSX-DataScience/blob/master/week_2/R%20crawler.Rmd), [.html](https://https://yuhsinliang.github.io/NTU-CSX-DataScience/week_2/R_crawler.html))
